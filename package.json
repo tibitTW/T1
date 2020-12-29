@@ -1,0 +1,21 @@
+{
+    "name": "t1",
+    "displayName": "T1",
+    "description": "A theme for VS code.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "T1",
+                "uiTheme": "vs-dark",
+                "path": "./themes/T1-color-theme.json"
+            }
+        ]
+    }
+}
