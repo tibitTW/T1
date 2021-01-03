@@ -41,53 +41,104 @@
         "list.hoverBackground": "#226064",
         "list.activeSelectionBackground": "#226064",
         "list.inactiveSelectionBackground": "#1d5053",
-        "terminal.background": "#142d2e"
+        "terminal.background": "#142d2e",
+        "statusBar.background": "#1d5053"
     },
     "tokenColors": [
         {
             "name": "String",
             "scope": ["string"],
             "settings": {
-                "foreground": "#00ffff"
+                "foreground": "#87c49e"
             }
         },
         {
             "name": "Number",
             "scope": ["constant.numeric"],
             "settings": {
-                "foreground": "#4aa8ff"
+                "foreground": "#70a7c7"
+            }
+        },
+        {
+            "name": "Constant",
+            "scope": ["constant"],
+            "settings": {
+                "foreground": "#ffff9e"
+            }
+        },
+        {
+            "name": "Variable",
+            "scope": ["variable.language"],
+            "settings": {
+                "foreground": "#f0a3a3"
             }
         },
         {
             "name": "Define",
-            "scope": ["storage.type.class", "meta.fuction"],
+            "scope": ["storage.type.class", "meta.fuction", "entity.name.function"],
             "settings": {
-                "foreground": "#ce9494",
-                "fontStyle": "bold"
+                "foreground": "#ce9494"
             }
         },
         {
             "name": "Function",
             "scope": ["entity.name.function", "entity.name.class"],
             "settings": {
-                "foreground": "#FF0000",
-                "fontStyle": "bold"
+                "foreground": "#45cf83",
+                "fontStyle": "underline"
             }
         },
         {
             "name": "Function Argument",
             "scope": ["variable.parameter"],
             "settings": {
-                "foreground": "#4aa8ff",
+                "foreground": "#984aff",
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "Keyword",
+            "name": "Import Keyword",
             "scope": ["keyword.control"],
             "settings": {
-                "foreground": "#ff3287",
+                "foreground": "#ffc400",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Flow Control Keyword",
+            "scope": ["keyword.control.flow"],
+            "settings": {
+                "foreground": "#ff5fa2",
                 "fontStyle": "bold "
+            }
+        },
+        {
+            "name": "Comparison Operator",
+            "scope": ["keyword.operator"],
+            "settings": {
+                "foreground": "#f6bc76"
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": ["comment"],
+            "settings": {
+                "foreground": "#758283",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Exception",
+            "scope": ["support.type"],
+            "settings": {
+                "foreground": "#FFd900"
+            }
+        },
+        {
+            "name": "Function",
+            "scope": ["meta.function-call"],
+            "settings": {
+                "foreground": "#71d6dd"
             }
         }
     ]
